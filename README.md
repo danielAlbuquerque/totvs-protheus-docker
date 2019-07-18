@@ -24,6 +24,7 @@ Pré-requisitos:
 <pre>
 $ git clone https://github.com/endersonmaia/totvs-protheus-docker.git
 $ cd totvs-protheus-docker
+$ git submodule init && git submodule update
 $ docker-compose up -d
 ...
 $ docker-compose ps
