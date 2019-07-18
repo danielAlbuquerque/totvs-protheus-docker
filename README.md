@@ -19,8 +19,11 @@ Dockerizar:
 Pré-requisitos:
 
 * docker, docker-compose instalados e com acesso a um host docker;
+* binários do appserver (ex.: 15-06-12-DBACCESS_LINUX64_20141119.TAR) para colocar na pasta `./appserver`.
 * binários do dbaccess (ex.: 15-06-12-DBACCESS_LINUX64_20141119.TAR) para colocar na pasta `./dbaccess`.
-
+* Baixar RPO e colocar na pasta `./totvs12/protheus/apo/`(ou no caminho definido em PROTHEUS_APO_PATH).
+* Baixar e descompactar dicionário de dados + help de campos na pasta `./totvs12/protheus_data/systemload`(ou no caminho definido em PROTHEUS_DATA_PATH + '/systemload')
+* Baixar e descompactar menus na pasta `./totvs12/protheus_data/system`(ou no caminho definido em PROTHEUS_DATA_PATH + '/system')
 <pre>
 $ git clone https://github.com/endersonmaia/totvs-protheus-docker.git
 $ cd totvs-protheus-docker
